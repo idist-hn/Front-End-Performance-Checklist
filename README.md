@@ -81,10 +81,10 @@ tránh giải quyết vấn đề ở mục đó.
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
  * 🛠 [Pingdom: Kiểm tra tốc độ của website](https://tools.pingdom.com)
  * 📖 [Giúp cho website nhanh hơn | Google Developers](https://developers.google.com/speed/)
- * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
+ * 🛠 [Sitespeed.io - chào mừng bạn đến với thế giới web tuyệt đẹp](https://www.sitespeed.io/)
  * 🛠 [Calibre](https://calibreapp.com/)
- * 🛠 [Website Speed Test | Check Web Performance &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
- * 🛠 [Website and Server Uptime Monitoring - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
+ * 🛠 [Website Speed Test | Kiểm tra hiệu suất của web &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
+ * 🛠 [Giám sát thời gian hoạt động của website và máy chủ - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
  * 🛠 [Uptime Robot](https://uptimerobot.com)
  * 🛠 [SpeedCurve: Giám sát hiệu suất của Front-end](https://speedcurve.com)
  * 🛠 [PWMetrics - công cụ CLI và thư viện thu thập các số liệu về hiệu suất](https://github.com/paulirish/pwmetrics)
@@ -95,17 +95,17 @@ tránh giải quyết vấn đề ở mục đó.
 
 ### Tài liệu tham khảo
 
- * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
- * [AddyOsmani.com - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
- * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
- * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
- * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
+ * 📹 [Giá trị của Javascript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
+ * [AddyOsmani.com - Ngân sách để bắt đầu cải thiện hiệu suất](https://addyosmani.com/blog/performance-budgets/)
+ * 📖 [Bắt đầu với phân tích hiệu suất theo thời gian |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
+ * 📖 [Trạng thái của 1 website | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
+ * 📖 [Dung lượng của một trang web không quan trọng](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
  * 📖 [Front-End Performance Checklist 2018 [PDF, Apple Pages]](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/)
- * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
- * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
- * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
- * 📖 [Checkbot - Web Speed Best Practices](https://www.checkbot.io/guide/speed/)
- * 🛠 [Progressive Tooling - A list of community-built, third-party tools that can be used to improve page performance](https://progressivetooling.com/)
+ * 📖 [Thiết kế đáp ứng hiệu xuất cân bằng giữa Thẩm mỹ và Tốc độ - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
+ * 📖 [Varvy - Bảng thuật ngữ về hiệu suất cho website](https://varvy.com/performance/)
+ * 📖 [fabkrum/web-performance-resources: Cập nhật bộ sưu tập tài nguyên có giá trị về hiệu suất website](https://github.com/fabkrum/web-performance-resources)
+ * 📖 [Checkbot -Các phương pháp hay nhất về tối ưu tốc độ web](https://www.checkbot.io/guide/speed/)
+ * 🛠 [Progressive Tooling - Danh sách các công cụ bên thứ ba được xây dựng bởi cộng đồng có thể sử dụng được để cải thiện hiệu suất trang](https://progressivetooling.com/)
 
 ---
 
@@ -121,9 +121,9 @@ tránh giải quyết vấn đề ở mục đó.
     *Làm như nào:*
     > Hầu hết các framework đều có plugin tạo điều kiện cho việc tối giản hóa các trang web. Bạn có thể sử dụng một loạt các module NPM mà có thể làm công việc đó cho bạn một cách tự động.
 
-    * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
-    * 🛠 [Online HTML Compressor](http://refresh-sf.com)
-    * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
+    * 🛠 [Tối giản HTML | Tối giản Code](http://minifycode.com/html-minifier/)
+    * 🛠 [Nén HTML online](http://refresh-sf.com)
+    * 📖 [Thử nghiệm về nén HTML — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
 
 - [ ] **Loại bỏ những comment không cần thiết:** ![low] Đảm bảo rằng các comment được loại bỏ khỏi trang của bạn.
 
@@ -150,13 +150,12 @@ tránh giải quyết vấn đề ở mục đó.
     ```
 
     *Vì sao:*
-    > Type attributes are not necessary as HTML5 implies text/css and text/javascript as defaults. Unused code should be removed when not used by your website or app as they add more weight to your pages.
     > Các thuộc tính type đã không còn cần thiết vì HTML5 đã ngầm hiểu text/css và text/javascript như các giá trị mặc định. Phần code không được sử dụng nên được loại bỏ vì nó làm trang nặng hơn khi không được sử dụng bởi website hoặc ứng dụng của bạn.
      
     *Làm như nào:*
     > ⁃ Chắc chắn là tất cả các thẻ `<link>` và `<script>` của bạn không có bất kì thuộc tính type nào.
 
-    * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
+    * 📖 [Thẻ Script | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
 - [ ] **Luôn luôn đặt các thẻ CSS trước các thẻ Javascript:** ![high] Chắc chắn là phần CSS của bạn luôn được tải trước phần code Javascript.
 
@@ -182,10 +181,9 @@ tránh giải quyết vấn đề ở mục đó.
     
     * 📖 [Sắp xếp lại các style và script để tăng tốc trang](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Giảm thiểu số lượng jframe:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid iframes as much as you can.
-Chỉ sử dụng iframe nếu bạn không có bất cứ một công nghệ khác. Cố gắng tránh việc sử dụng jframe nhiều nhất có thể.
+- [ ] **Giảm thiểu số lượng jframe:** ![high] Chỉ sử dụng iframe nếu bạn không có bất cứ một công nghệ khác. Cố gắng tránh việc sử dụng jframe nhiều nhất có thể.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ quay về đầu trang](#table-of-contents)**
 
 ## CSS
 
@@ -220,12 +218,10 @@ Chỉ sử dụng iframe nếu bạn không có bất cứ một công nghệ kh
     > Nếu bạn còn đang sử dụng HTTP/1, bạn có thể vẫn cần phải ghép nối các files của mình lại, nó không còn đúng thực sự nếu server của bạn sử dụng HTTP/2 (việc kiểm tra lại nên được thực hiện).
     
     *Làm như nào:*
-    > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files. <br>
     > ⁃ Sử dụng công cụ online hoặc bất kì một plugin nào đó trước hoặc trong khi xây dựng hoặc phát triển của bạn để ghép nối các file lại với nhau. <br>
-    ⁃ Ensure, of course, that concatenation does not break your project.
     ⁃ Đương nhiên là hãy chắc chắn việc ghép nối không phá vỡ project của bạn.
 
-    * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
+    * 📖 [HTTP: Tối ưu hóa việc phân phối các ứng dụng - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
 - [ ] **non-blocking:** ![high] Các file CSS phải không bị khóa để ngăn việc DOM mất nhiều thời gian tải.
@@ -256,7 +252,7 @@ Chỉ sử dụng iframe nếu bạn không có bất cứ một công nghệ kh
     
     * 🛠 [class ngắn và dài · jsPerf](https://jsperf.com/long-vs-short-class)
 
-- [ ] **Unused CSS:** ![medium] Xóa các selector CSS không sử dụng
+- [ ] **CSS Không sử dụng:** ![medium] Xóa các selector CSS không sử dụng
 
     *Vì sao:*
     > Loại bỏ các selector CSS không được sử dụng có thể giảm kích thước các file của bạn và tăng tốc độ load nội dung lên.
@@ -270,7 +266,7 @@ Chỉ sử dụng iframe nếu bạn không có bất cứ một công nghệ kh
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Critical:** ![high] Phần CSS quan trọng (hoặc "trong màn hình đầu tiên") thu thập tất cả các CSS được sử dụng để render ra phần hiển thị của trang. nó được nhúng trước phần gọi CSS chính của bạn và nằm giữa `<style></style>` trên một dòng duy nhất (tối giản nếu có thể).
+* [ ] **CSS quan trọng:** ![high] Phần CSS quan trọng (hoặc "trong màn hình đầu tiên") thu thập tất cả các CSS được sử dụng để render ra phần hiển thị của trang. nó được nhúng trước phần gọi CSS chính của bạn và nằm giữa `<style></style>` trên một dòng duy nhất (tối giản nếu có thể).
     *Vì sao:*
     > Việc đặt CSS quan trọng dạng inline giúp tăng tốc độ render của các trang web, giảm được lượng request tới server.
     *Làm như nào:*
@@ -314,50 +310,50 @@ Chỉ sử dụng iframe nếu bạn không có bất cứ một công nghệ kh
 
 * 📖 [Một cuốn sách ngoài lề, Sổ tay Webfont](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **Định dạng Webfont:** ![medium] Bạn đang sử dụng WOFF2 trên project web hay ứng dụng của bạn.
 
     *Vì sao:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+    > Theo Google, định dạng nén WebFont WOFF 2.0 cung cấp mức tăng trung bình khoảng 30% so với WOFF 1.0. Thật tuyệt vời khi sử dụng WOFF 2.0, WOFF 1.0 như biện pháp dự phòng và TFF.
 
     *Làm như nào:*
-    > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
+    > Hãy kiểm tra trước khi mua một font mới mà nhà cung cấp đã đưa cho bạn định dạng WOFF2. Nếu bạn sử dụng font miễn phí, bạn luôn luôn có thể sử dụng Font Squirrel để chuyển sang mọi định dạng bạn cần.
 
-    * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
-    * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
-    * 🛠 [IcoMoon App - Icon Font, SVG, PDF & PNG Generator](https://icomoon.io/app/)
-    * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
-    * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
+    * 📖 [WOFF 2.0 – Tìm hiểu về định dạng font web thế hệ tiếp theo và convert từ TTF sang WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
+    * 🛠 [Tạo bộ @font-face Kits cho riêng bạn » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
+    * 🛠 [IcoMoon App - Tạo ra Icon Font, SVG, PDF & PNG](https://icomoon.io/app/)
+    * 📖 [Sử dụng @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
+    * 📖 [Liệu tôi có thể sử dụng... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **Sử dụng `preconnect` để load font của bạn nhanh hơn:** ![medium]
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
     *Vì sao:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
+    > Khi bạn tới một trang web, thiết bị của bạn cần tìm hiểu nơi mà trang web của bạn đang hoạt động và nó cần kết nối tới server nào. Trình duyệt của bạn phải liên lạc với DNS server và chờ nó tìm xong trước khi tìm và tải tài nguyên (font, file CSS,...) Việc tìm nạp và kết nối trước cho phép trình duyệt tìm kiếm các thông tin về DNS và bắt đầu thiết lập kết nối TCP tới server lưu trữ file font. Điều này giúp hiệu suất tăng lên bởi vì khi trình duyệt  phân tích file css với thông tin về font và phát hiện nó cần yêu cầu file font từ server, nó sẽ có sẵn thông tin về DNS và có kết nối mở đến server sẵn trong pool.
 
     *Làm như nào:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
+    > ⁃ Trước khi tìm nạp trước các webfont của bạn, sử dụng webpagetest để đánh giá website của bạn <br>
+    ⁃ Tìm kiếm, tra cứu DNS và lưu máy chủ đang được yêu cầu <br>
+    ⁃ Tìm nạp trước các webfont của bạn trong thẻ `<head>` và thêm các tên máy chủ mà bạn đã tìm nạp cuối cùng
 
-    * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
-    * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
-    * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
-    * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
-    * 🛠 [typekit/webfontloader: Web Font Loader gives you added control when using linked fonts via @font-face.](https://github.com/typekit/webfontloader)
+    * 📖 [Đẩy nhanh việc tải về Google Font bằng kết nối trước - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
+    * 📖 [Giúp trang web của bạn nhanh hơn với các gợi ý về kết nối | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
+    * 📖 [Các hướng dẫn cuối cùng về gợi ý cho trình duyệt: Tải trước, Nạp trước, và  kết nối trước - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
+    * 📖 [Hướng dẫn toàn diện về chiến lược tải font —zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
+    * 🛠 [typekit/webfontloader: Trình tải font cho phép bạn thêm quyền quản lý khi sử dụng font được liên kết thông qua @font-face.](https://github.com/typekit/webfontloader)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **Kích thước của Webfont:** ![medium] Các kích thước của Webfont không được  vượt quá 300kb (bao gồm tất cả các biến thể)
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
 - [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
 
- * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
- * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
+ * 📖 [`font-display` cho các khối](https://css-tricks.com/font-display-masses/)
+ * 📖 [CSS font-display:Tương lai của việc render font trên Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ quay lại đầu trang](#table-of-contents)**
 
 ## Images
 
@@ -365,51 +361,53 @@ Chỉ sử dụng iframe nếu bạn không có bất cứ một công nghệ kh
 
  * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **Tối ưu hóa hình ảnh:** ![high] Các hình ảnh của bạn phải được tối ưu, được nén mà không ảnh hưởng trực tiếp tới user cuối.
 
     *Vì sao:*
-    > Optimized images load faster in your browser and consume less data.
+    > Việc tối ưu hóa các hình ảnh sẽ tải nhanh hơn trên trình duyệt của bạn và tiêu thụ ít dữ liệu hơn
+    
+    *Làm như nào:*
+    
+    > ⁃ Cố gắng sử dụng các hiệu ứng trên CSS3 khi có thể (thay cho các ảnh nhỏ) <br>
+    ⁃ Khi có thể, hãy sử dụng font thay cho phần text được mã hóa trong ảnh của bạn <br>
+    ⁃ Sử dụng SVG
+    ⁃ Sử dụng một công cụ và chỉ định mức độ nén dưới 85.
+    
+    * 📖 [Tối ưu hóa hình ảnh | Các nguyên tắc cơ bản về Web | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
+    * 📖 [Tối ưu hóa các hình ảnh cần thiết - Một eBook của Addy Osmani](https://images.guide/)
+    * 🛠 [TinyJPG – Nén các hình ảnh JPEG một cách thông minh](https://tinyjpg.com/)
+    * 🛠 [Kraken.io - Tối ưu hóa hình ảnh online](https://kraken.io/web-interface)
+    * 🛠 [Compressor.io - Tối ưu hóa, nén các hình ảnh JPEG và PNG](https://compressor.io/compress)
+    * 🛠 [Cloudinary - Công cụ phân tích hình ảnh](https://webspeedtest.cloudinary.com)
+    * 🛠 [SVGOMG - Tối ưu hóa các file vector SVG](https://jakearchibald.github.io/svgomg/)
+
+
+* [ ] **Các định dạng hình ảnh:** ![high] .Chọn định dạng hình ảnh của bạn một cách thích hợp.
+
+    *Vì sao:*
+    > Để chắc chắn các hình ảnh của bạn không làm website chậm đi, hãy chọn định dạng tương ứng với ảnh của bạn. Nếu nó là là một bức ảnh, JPEG hầu như phù hợp hơn PNG hay GIF. Nhưng đừng quên xem qua các thế hệ định dạng tiếp theo mà nó có thể giảm kích thước file của bạn. Mỗi định dạng ảnh đều có ưu điểm và nhược điểm riêng, điều quan trọng là phải biết chúng để đưa ra sự lựa chọn tốt nhất.
 
     *Làm như nào:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image) <br>
-    ⁃ When it's possible, use fonts instead of text encoded in your images <br>
-    ⁃ Use SVG <br>
-    ⁃ Use a tool and specify a level compression under 85.
+    > ⁃ Sử dụng [Lighthouse](https://developers.google.com/web/tools/lighthouse/) để xác định hình ảnh cuối cùng có thể sử dụng **định dạng ở thế hệ tiếp theo** (như JPEG 2000m, JPEG XR hay WebP) <br>
+    ⁃ So sánh các định dạng khác nhau, thông thường sử dụng PNG8 thì tốt hơn PNG16, nhưng thỉnh thoảng lại không.
 
-    * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
-    * 📖 [Essential Image Optimization - An eBook by Addy Osmani](https://images.guide/)
-    * 🛠 [TinyJPG – Compress JPEG images intelligently](https://tinyjpg.com/)
-    * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
-    * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
-    * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
-    * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
+    * 📖 [Lựa chọn hình ảnh ở các thế hệ tiếp theo  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
+    * 📖 [Định dạng hình ảnh phù hợp cho trang web của bạn là gì? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
+    * 📖 [PNG8 - Chiến thắng cuối cùng — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
+    * 📖 [8-bit vs 16-bit - Độ sau màu nào bạn nên sử dụng và tại sao - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+- [ ] **Sử dụng các hình ảnh vector thay cho raster/bitmap:** ![medium] Thay thế việc sử dụng hình ảnh vector cho các hình ảnh dạng bitmap (khi có thể).
 
     *Vì sao:*
-    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
-
-    *Làm như nào:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
-    ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
-
-    * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
-    * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
-    * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
-    * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
-
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
+    > Các ảnh vector (SVG) có xu hướng nhỏ hơn các ảnh thông thường và SVG đã có khả năng responsive, co dãn một cách hoàn hảo. Các hình ảnh này hoàn toàn có thể tạo và chỉnh sửa bằng CSS.
+    
+* [ ] **Kích thước của các hình ảnh:** ![medium] Đặt các thuộc tính `width` và `height` vào thẻ `<img>` nếu kích thước cuối cùng của hình ảnh sau khi render đã được biết trước.
 
     *Vì sao:*
-    > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
-
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
-
-    *Vì sao:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
-
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
+    
+    > Nếu chiều cao và chiều rộng được đặt, đã có phần không gian yêu cầu cho hình ảnh đã được đặt riêng khi tải trang.  nhiên, nếu không có các thuộc tính này, trình duyệt không s được kích thước của ảnh và không thể dự trữ không gian thích hợp cho nó. Hiệu ứng sau đó sẽ là bố cục trang bị thay đổi trong khi tải (trong khi tải ảnh).
+    
+* [ ] **Tránh việc sử dụng hình ảnh Base64:** ![medium] Cuối cùng thì bạn có thể chuyển đổi các ảnh nhỏ sang dạng base64 nhưng nó thực sự không phải là phương pháp hay.
 
     * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
     * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
