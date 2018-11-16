@@ -348,7 +348,7 @@ tránh giải quyết vấn đề ở mục đó.
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
-- [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+- [ ] **Chặn Flash hoặc các text bị ẩn:** ![medium] Tránh các loại text màu trong suốt trong quá trình Webfont được tải.
 
  * 📖 [`font-display` cho các khối](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display:Tương lai của việc render font trên Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
@@ -409,66 +409,66 @@ tránh giải quyết vấn đề ở mục đó.
     
 * [ ] **Tránh việc sử dụng hình ảnh Base64:** ![medium] Cuối cùng thì bạn có thể chuyển đổi các ảnh nhỏ sang dạng base64 nhưng nó thực sự không phải là phương pháp hay.
 
-    * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
-    * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
-    * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
-   * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
+    * 📖 [Mã hóa và hiệu năng của Base64, Phần 1 và 2 của Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
+    * 📖 [Một cái nhìn rõ ràng hơn về hiệu năng của ảnh dạng Base64 – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
+    * 📖 [Khi nào thì nên mã hóa base64 (và khi nào thì không) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
+   * 📖 [Mã hóa hình ảnh bằng base64 để các trang nhanh hơn | Các yếu tố về hiệu năng và seo](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![medium] Các hình ảnh trên màn hình được tải một cách lười biếng. (Một noscript fallback luôn được cung cấp sẵn). 
 
     *Vì sao:*
     > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
-
+    > Nó sẽ cải thiện được thời gian trả về của trang hiện tại và sau đó tránh tải nhũng hình ảnh không cần thiết mà user có thể không cần tới.
     *Làm như nào:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
-    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
+    > ⁃ Sử dụng [lighthouse](https://developers.google.com/web/tools/lighthouse/) để xác định có bao nhiêu **hình ảnh trên màn hình**. <br>
+    ⁃ sử dụng plugin Javascript như sau để thực hiện việc lazyload các hình ảnh của bạn. Hãy chắc chắn là chỉ có những hình ảnh trên màn hình. <br>
+    ⁃Ngoài ra, hãy đảm bảo lazyload chỉ tải xuống các hình ảnh thay thế và được hiển thị khi di chuột qua hoặc các hành động khác của người dùng.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
-    * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
-    * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
+    * 📖 [Lazy Loading các hình ảnh và Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
+    * 📖 [5 cách tuyệt vời để tải hình ảnh qua lazyload giúp tải trang nhanh hơn - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **Responsive các hình ảnh:** ![medium] Hãy đảm bảo là những hình ảnh được cung cấp khá gần với kích thước hiển thị của bạn.
 
     *Vì sao:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
-
+    > Các thiết bị nhỏ không cần những hình ảnh lớn hơn so với khung nhìn của họ. Bạn nên có nhiều phiên bản của một hình ảnh trên nhiều kích thước khác nhau.
+    
     *Làm như nào:*
-    > ⁃ Create different image sizes for the devices you want to target. <br>
-    ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
 
-     * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+    > Tạo ra các kích thước khác nhau của hình ảnh để các thiết bị của bạn trỏ tới. <br>
+    ⁃ Sử dụng `srcset` và `picture` để phân phối nhiều biến thể của mỗi hình ảnh.
+    
+     * 📖 [Responsive các hình ảnh - Tìm hiểu về phát triển web | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ quay lại đầu trang](#table-of-contents)**
 
 ## JavaScript
 
 ![javascript]
 
-- [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
+- [ ] **Giảm thiểu JS:** ![high] Tất cả các file Javascript đều phải tối giản, các comments, khoảng trắng và dòng trống đều phải được loại bỏ khỏi các file của production. *(Vẫn hợp lệ nếu sử dụng HTTP/2)*.
 
     *Vì sao:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
-
+    > xóa toàn bộ các khoảng trống, comments và xuống dòng không cần thiết sẽ giảm được kích thước các file Javascript của bạn và tăng tốc tải trang và giảm nhẹ được dung lượng user tải về.
+    
     *Làm như nào:*
-    > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
+    > ⁃ Sử dụng các công cụ được đề xuất bên dưới để tối giản các file của bạn tự động trước hoặc trong khi bạn xây dựng hay phát triển.
 
     * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
-    * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
-    * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
+    * 🛠 [Nén code Javascript online](http://refresh-sf.com)
+    * 📖 [Short read: HTTP/2 có gì khác? Chúng ta vẫn nên rút gọn và ghép code hay không?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **Không có Javascript dạng Inline:** ![medium] *(Chỉ phù hợp các trang web)* Tránh việc nhúng nhiều code Javascript ở giữa thẻ body của bạn. Nhóm code Javascript của bạn lại trong một file bên ngoài hoặc nằm cuối cùng của thẻ `<head>` hay đặt nó ở cuối trang (trước thẻ `<body>`).
 
     *Vì sao:*
-    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
-
+    >  Việc đặt Javascript nhúng trực tiếp vào thẻ `<body>` của bạn có thể làm chậm trang vì nó phải tải trong khi DOM đang được xây dựng. Tùy chọn tốt nhất là sử dụng một file bên ngoài với `async` hay `defer` để không chặn DOM lại. Một cách khác là đặt các đoạn script trong thẻ `<head>` của bạn. Hầu hết thời gian để phân tích code hawojc các đoạn script nhỏ cần được tải trước khi DOM thực hiện tiến trình chính.
     *Làm như nào:*
-    > Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
+    > Đảm bảo là mọi file của bạn đề sử dụng `async` hoặc `defer` và đưa ra một quyết định tốt nhất cho việc bạn phải đưa code của mình vào thẻ `<head>`.
 
-     * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
+     * 📖 [11 Mẹo nhỏ để tối ưu code Javascript và cải thiện tốc độ load trang](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
-* [ ] **Non-blocking JavaScript:** ![high] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **Non-blocking JavaScript:** ![high] Các file Javascript được load bất đồng bộ sử dụng `async` hoặc ngưng lại bằng cách sử dụng thuộc tính `defer`.
 
     ```html
     <!-- Defer Attribute -->
@@ -479,16 +479,17 @@ tránh giải quyết vấn đề ở mục đó.
     ```
 
     *Vì sao:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
-
+    > Javascript chặn việc phân tích thông thường của tài liệu HTML, vì vậy khi trình phân tích tiếp cận thẻ `<script>` (đặc biệt là bên trong thẻ `<head>`), nó dừng lại để nạp và thực thi. Việc thêm `async` hoặc `defer` được đánh giá cao nếu các script của bạn được đặt trên cùng của trang nhưng ít giá trị hơn nếu nó chỉ nằm trước thẻ `</body>`. Nhưng thực tế thì tốt nhất vẫn nên sử dụng các thuộc tính này để tránh ảnh hưởng xấu nên hiệu suất.
+    
     *Làm như nào:*
-    > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag. <br>
-    ⁃ If you have small scripts, maybe use inline script place above async scripts.
+    > ⁃ Thêm `async` (nếu script này không phụ thuộc vào script khác) hoặc `defer` (nếu script này phụ thuộc vào phần trên hoặc phụ thuộc vào script bất đồng bộ khác) như nột thuộc tính đối với thẻ script của bạn <br>
+    ⁃ Nếu bạn có những đoạn script nhỏ, có thể sử dụng script dạng inline được đặt ở trên các script bất đồng bộ.
+    
+    * 📖 [Loại bỏ Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
+    * 📖 [Trì hoãn việc tải Javascript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
-    * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
-    * 📖 [Defer loading JavaScript](https://varvy.com/pagespeed/defer-loading-javascript.html)
+* [ ] **Tối ưu và nâng cấp thư viện Javascript:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
     *Vì sao:*
     > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
