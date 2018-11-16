@@ -222,7 +222,7 @@ tránh giải quyết vấn đề ở mục đó.
     ⁃ Đương nhiên là hãy chắc chắn việc ghép nối không phá vỡ project của bạn.
 
     * 📖 [HTTP: Tối ưu hóa việc phân phối các ứng dụng - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
-    * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
+    * 📖 [Performance Best Practices trên HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
 - [ ] **non-blocking:** ![high] Các file CSS phải không bị khóa để ngăn việc DOM mất nhiều thời gian tải.
 
@@ -273,7 +273,7 @@ tránh giải quyết vấn đề ở mục đó.
     > Việc tạo các CSS quan trọng bằng các công cụ online hoặc sử dụng plugin như plugin của Addy Asmani đã phát triển.
 
     * 📖 [Tìm hiểu về Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
-    * 🛠 [Critical của Addy Osmani trên GitHub](https://github.com/addyosmani/critical) automates this.
+    * 🛠 [Critical của Addy Osmani trên GitHub](https://github.com/addyosmani/critical)
     * 📖 [Inline các CSS quan trọng để web có hiệu suất tốt hơn | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
      * 🛠 [Critical Path CSS Generator - Ưu tiên phần nội dung trong màn hình đầu tiên :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
      * 📖 [Giảm kích thước của content trong màn hình đầu tiên
@@ -556,7 +556,6 @@ tránh giải quyết vấn đề ở mục đó.
     > Ý tưởng là bạn phải cố đạt mục tiêu nhỏ hơn 500KB nhưng hiện trạng của web cho thấy trung bình nó nằm trong khoảng 1500KB (cả trên mobile). Phụ thuộc vào đối tượng user mà bạn nhắm tới, kết nối mạng, các thiết bị, điều quan trọng là phải giảm tổng số kylobyte nhiều nhất có thể để có thể đạt được trải nghiệm của user tốt nhất.
     
     *Làm như nào:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
     > ⁃ Tất cả các quy tắc trong Front-End Performance Checklist sẽ giúp bạn giảm nhiều nhất có thể các tài nguyên và code của bạn.
 
     * 📖 [Dung lượng trang](https://httparchive.org/reports/page-weight#bytesTotal)
