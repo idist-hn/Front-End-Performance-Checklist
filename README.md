@@ -50,23 +50,23 @@
 6. **[Server](#server) (in progress)**
 7. **[JS Frameworks](#performances-and-js-frameworks) (in progress)**
 
-## Introduction
+## Giới thiệu
 
-Performance is a huge subject, but it's not always a "back-end" or an "admin" subject: it's a Front-End responsibility too. The Front-End Performance Checklist is an exhaustive list of elements you should check or at least be aware of, as a Front-End developer and apply to your project (personal and professional).
+Performance là một chủ để lớn, nhưng nó không phải là một chủ đề về "back-end" hoặc "admin": nó cũng là một Front-End responsibility. Danh sách Front-End Performance là một danh sách đầy đủ các thành phần bạn nên kiểm tra hoặc ít nhất biết được giống như một Front-End developer và áp dụng vào dự án của bạn (cá nhân và chuyên nghiệp).
 
-### How to use?
+### Làm thế nào để sử dụng?
 
-For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+Đối với mỗi quy tắc, bạn sẽ có một đoạn giải thích *tại sao* về quy tắc đó là quan trọng và *làm thế nào* bạn có thể sửa nó. Để biết thêm thông tin chi tiết, bạn nên tìm đênns link mà sẽ được chỉ bởi các công cụ 🛠, 📖 các bài viết or 📹 các media để có thể hoàn thành checklist.
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
+Tất cả các mục trong **Front-End Performance Checklist** là những yếu tố cần thiết để are essentials để đạt được điểm số về performance cao nhất nhưng bạn sẽ tìm thấy một chỉ số để giúp bạn ưu tiên một số quy tắc khác. Có 3 mức độ ưu tiên: 
 
-* ![Low][low] means that the item has a **low** priority.
-* ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority. You can't avoid following that rule and implement the corrections recommended.
+* ![Low][low] nghĩa là mục có ưu tiên **thấp**.
+* ![Medium][medium] nghĩa là mục có ưu tiên **trung bình**. Bạn không nên tránh giải quyết mục này.
+* ![High][high] nghĩa là mục này có ưu tiên **cao** . Bạn không thể tránh theo dõi các quy tắc này và thực hiện các sửa chữa được đề nghị.
 
-### Performance tools
+### Các công cụ cho performance
 
-List of the tools you can use to test or monitor your website or application:
+Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển thị website của bạn hoặc ứng dụng:
 
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
@@ -87,7 +87,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Checkbot browser extension - Checks for web performance best practices](https://www.checkbot.io/)
  * 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
 
-### References
+### Tài liệu tham khảo
 
  * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
  * [AddyOsmani.com - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
@@ -107,29 +107,29 @@ List of the tools you can use to test or monitor your website or application:
 
 ![html]
 
-- [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Minified HTML:** ![medium] HTML code được minify, các comment, các khoảng trắng và các dòng mới được loại bỏ khỏi các file production  and new lines are removed from production files.
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
+    *Tại sao:*
+    > Loại bỏ tất cả các khoảng trắng, các comment và xuống dòng không cần thiết sẽ giảm kích thước HTML của bạn và tăng tốc độ thời gian load trang của bạn và chắc chắn làm giảm bớt việc tải xuống cho người dùng của bạn.
 
-    *How:*
-    > Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
+    *Cách làm:*
+    > Hầu hết các framework đều có các plugin để tối giản hoá các trang web. Bạn có thể sử dụng một bunch của NPM module mà có thể thực hiện job đó một các tự động.
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 🛠 [Online HTML Compressor](http://refresh-sf.com)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
 
-- [ ] **Remove unnecessary comments:** ![low] Ensure that comments are removed from your pages.
+- [ ] **Loại bỏ các comment không cần thiết:** ![low] Đảm bảo rằng các comment được loại bỏ khỏi các trang của bạn.
 
-    *Why:*
-    > Comments are not really useful for the user and should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
+    *Tại sao:*
+    > Các comment không thực sự hữu ích cho người dùng và nên được loại bỏ khỏi các file production. Trong trường hợp bạn muốn giữ các comment nếu bạn cần giữ lại bản gốc của một thư viện.
 
-    *How:*
-    > ⁃ Most of the time, comments can be removed using an HTML minify plugin.
+    *Cách làm:*
+    > ⁃ Hầu hết mọi lần, các comment có thể được loại bỏ khi sử dụng một plugin cho HTML minify.
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` are not required anymore and should be removed.
+- [ ] **Loại bỏ các thuộc tính không cần thiết:** ![low] Các thuộc tính type giống như là `type="text/javascript"` hoặc `type="text/css"` không được yêu cầu bắt buộc nữa và nên được bỏ đi.
 
     ```html
     <!-- Before HTML5 -->
@@ -143,15 +143,15 @@ List of the tools you can use to test or monitor your website or application:
     </script>
     ```
 
-    *Why:*
-    > Type attributes are not necessary as HTML5 implies text/css and text/javascript as defaults. Unused code should be removed when not used by your website or app as they add more weight to your pages.
+    *Tại sao:*
+    > Thuộc tính type là không cần thiết trong HTML 5 ngụ ý text/css và text/javascript là mặc định. Code không sử dụng nên được loại bỏ khi không được sử dụng bởi website hoặc ứng dụng của bạn, chúng thêm vào làm nặng các trang của bạn.
 
-    *How:*
-    > ⁃ Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
+    *Cách làm:*
+    > ⁃ Đảm bảo rằng tất cả các thẻ `<link>` and `<script>` của bạn không chứa bất kỳ thuộc tính type nào.
 
     * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
-- [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
+- [ ] **Luôn luôn đặt các thẻ CSS trước các thẻ JavaScript:** ![high] Đảm bảo rằng CSS của bạn luôn luôn được load trước khi có code Javascript.
 
     ```html
     <!-- Not recommended -->
@@ -165,15 +165,15 @@ List of the tools you can use to test or monitor your website or application:
     <script src="foo.js"></script>
     ```
 
-    *Why:*
-    > Having your CSS tags before any JavaScript enables better, parallel download which speed up browser rendering time.
+    *Tại sao:*
+    > Có các thẻ CSS trước bất kỳ thẻ Javascript nào sẽ tốt hơn Having your CSS tags before any JavaScript enables better, tải xuống song song giúp tăng tốc độ về thời gian hiển thị của trình duyệt.
 
-    *How:*
-    > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
+    *Cách làm:*
+    > ⁃ Đảm bảo rằng `<link>`  và `<style>` trong `<head>` là luôn luôn ở trước `<script>`.
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid iframes as much as you can.
+- [ ] **Giảm thiểu số lượng iframe:** ![high] Chỉ sử dụng iframe nếu bạn không có khả năng sử dụng kỹ thuật khác. Cố gắng tránh các iframe nhiều nhất có thể.
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -181,20 +181,20 @@ List of the tools you can use to test or monitor your website or application:
 
 ![css]
 
-- [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Minification:** ![high] Tất cả các file CSS được minify, các comment, các khoảng trắng và các dòng trống được loại bỏ ra các file production.
 
-    *Why:*
-    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
+    *Tại sao:*
+    > Khi các file CSS được minify, nội dung được load nhanh hơn và ít dữ liệu hơn được gửi đến client. Điều quan trọng là luôn luôn minify các file CSS trong production. Nó có lợi cho người dùng vì nó làm cho bất kỳ business người muốn giảm chi phi băng thông và giảm tài nguyên sử dụng.
 
-    *How:*
-    > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
+    *Cách làm:*
+    > ⁃ Sử dụng các công cụ để minify các file của bạn tự động trước khi hoặc trong khi build hoặc trong khi deploymennt.
 
     * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
     * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
     * 🛠 [Online CSS Compressor](http://refresh-sf.com)
 
 
-- [ ] **Concatenation:** ![medium] CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
+- [ ] **Ghép nối:** ![medium] Các file CSS được nối lại thành một file riêng *(Không phải lúc nào cũng đúng với HTTP/2)*.
 
     ```html
 
@@ -206,64 +206,64 @@ List of the tools you can use to test or monitor your website or application:
     <link rel="stylesheet" href="foobar.css"/>
     ```
 
-    *Why:*
-    > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server use HTTP/2 (tests should be made).
+    *Tại sao:*
+    > Nếu bạn vẫn sử dụng HTTP/1, bạn có thể vẫn cần nối các file, nó ít đúng nếu server của bạn sử dụng HTTP/2 (Các test nên được thực hiện).
 
-    *How:*
-    > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files. <br>
-    ⁃ Ensure, of course, that concatenation does not break your project.
+    *Cách làm:*
+    > ⁃ Sử dụng công cụ online hoặc bất kỳ plugin nào trước khi hoặc trong khi build hoặc deployment các file nối của bạn. <br>
+    ⁃ Tất nhiên, đảm bảo các file nối không làm vỡ project của bạn.
 
     * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
-- [ ] **Non-blocking:** ![high] CSS files need to be non-blocking to prevent the DOM from taking time to load.
+- [ ] **Non-blocking:** ![high] Các file CSS cần ở trạng thái non-blocking để ngăng DOM mất thời gian load.
 
     ```html
     <link rel="preload" href="global.min.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="global.min.css"></noscript>
     ```
 
-    *Why:*
-    > CSS files can block the page load and delay the rendering of your page. Using `preload` can actually load the CSS files before the browser starts showing the content of the page.
+    *Tại sao:*
+    > Các file CSS files có thể block trang web load và delay quá trình render của trang. Sử dụng `preload` có thể thực sự load các file CSS trước khi browser bắt đầu hiển thị nội dung của trang.
 
-    *How:*
-    > ⁃ You need to add the `rel` attribute with the `preload` value and add `as="style"` on the `<link>` element.
+    *Cách làm:*
+    > ⁃ Bạn cần thêm thuộc tính `rel` với giá trị `preload` value và thêm `as="style"` trên `<link>` element.
 
     * 🛠 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
     * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
     * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
     * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **Length of CSS classes:** ![low] The length of your classes can have an (slight) impact on your HTML and CSS files (eventually).
+- [ ] **Độ dài của các class CSS:** ![low] Độ dài của các class của bạn có thể có một ảnh hưởng (nhẹ) lên các file HTML và CSS của bạn.
 
-    *Why:*
-    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can end up with classes having more characters than needed. It's always important to choose wisely your names and namespaces.
+    *Tại sao:*
+    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. Nếu bạn đang sử dụng BEM, trong một vài class bạn có thể kết thúc với các class có nhiều ký tự hơn cần thiết. Việc chọn tên và namespace không ngoan luôn là điều quan trọng.
 
-    *How:*
-    > Setting a limit in terms of number of characters could be interesting for some people, but ensuring that you broke down your website in components can help to reduce the amount of classes (and declarations) and the length of your classes.
+    *Cách làm:*
+    > Đặt một giới hạn về số lượng ký tự có thể hấp dẫn cho một số người, nhưng đảm bảo rằng bạn không làm vỡ website của bạn trong các thành phần có thể giúp làm giảm số lượng các class (và các khai báo) và kích thước của các class.
 
     * 🛠 [long vs short class · jsPerf](https://jsperf.com/long-vs-short-class)
 
-- [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
+- [ ] **CSS không sử dụng:** ![medium] Loại bỏ các selector CSS không sử dụng.
 
-    *Why:*
-    > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
+    *Tại sao:*
+    > Việc loại bỏ các CSS selector không sử dụng có thể làm giảm kích thước các file của bạn và tăng tốc độg load các tài nguyên của bạn.
 
-    *How:*
-    > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
+    *Cách làm:*
+    > ⁃ ⚠️ Luôn luôn kiểm tra nếu các framework CSS mà bạn muốn sử dụng không sẵn sàng có code để reset / normalize được include. Thỉnh thoảng bạn có thể không cần mọi thú nằm trong file reset / normalize.
 
     * 🛠 [UnCSS Online](https://uncss-online.com/)
     * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Critical:** ![high] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified if possible).
+* [ ] **CSS Critical:** ![high] The CSS critical (hoặc "trong màn hình đầu tiên") tập hợp tất cả CSS được sử dụng để render phần hiển thị của trang. Nó được nhúng trước lời gọi principal CSS và giữa `<style></style>` trong một dòng riêng(được minify nếu khả thi).
 
-    *Why:*
-    > Inlining critical CSS help to speed up the rendering of the web pages reducing the number of requests to the server.
+    *Tại sao:*
+    > Inlining critical CSS giúp tăng tốc độ render của các trang web giảm số lượng các request đến server.
 
-    *How:*
-    > Generate the CSS critical with online tools or using a plugin like the one that Addy Osmani developed.
+    *Cách làm:*
+    > Tạo CSS critical với các công cụ online hoặc sử dụng một plugin giống như Osmani đã phát triển.
 
     * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
     * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
@@ -272,23 +272,23 @@ List of the tools you can use to test or monitor your website or application:
      * 📖 [Reduce the size of the above-the-fold content
 ](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
 
-- [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
+- [ ] **CSS nhúng hoặc inline:** ![high] Tránh sử dụng CSS nhúng hoặc inline phía trong `<body>` *(Không hợp lệ cho HTTP/2)*
 
-    *Why:*
-    > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file-size of your HTML pages and the load time.
+    *Tại sao:*
+    > Một trong những lý do đầu tiên bởi vì nó các làm tốt để **tách nội dung ra khỏi design**. Nó cũng giúp bạn có code dễ bảo trì hơn và giữ truy cập của site. Nhưng về hiệu năng, nó đơn giản chỉ vì nó làm giảm kích thước file của các trang HTM và giảm thời gian load.
 
-    *How:*
-    > Always use external stylesheets or embed CSS in your `<head>` (and follow the others CSS performance rules)
+    *Cách làm:*
+    > Luôn luôn sử dụng CSS stylesheet ngoài hoặc nhúng trong thẻ `<head>` (và thực hiện theo các quy tắc khác về hiệu năng CSS)
 
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
+- [ ] **Phân tích các stylesheet phức tạp:** ![high] Phân tích các stylesheet của bạn có thể giúp bạn gắn cờ cho các vấn đề, các selector CSS dư thừa và trùng lặp.
 
-    *Why:*
-    > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
+    *Tại sao:*
+    > Đôi khi bạn có thể có các lỗi dư thừa  hoặc validation trong CSS của bạn phân tích các file CSS và loại bỏ những phức tạp này có thể giúp bạn tăng tốc độ các file CSS (bởi vì trình duyệt của bạn sẽ đọc chúng nhanh hơn)
 
-    *How:*
-    > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
+    *Cách làm:*
+    > CSS của bạn nên được tổ chức lại, sử dụng một bộ tiền xử lý CSS có thể giúp bạn điều đó. Một vài công cụ online được liệt kê ở dưới có thể giúp bạn phân tích sự chính xác code của bạn.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 🛠 [CSS Stats](https://cssstats.com/)
@@ -303,13 +303,13 @@ List of the tools you can use to test or monitor your website or application:
 
 * 📖 [A Book Apart, Webfont Handbook](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **Webfont formats:** ![medium] Bạn đang sử dụng  WOFF2 trên dự án web hoặc ứng dụng của bạn.
 
-    *Why:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+    *Tại sao:*
+    > Theo Google, định dạng nén WOFF 2.0 Web Font manng lại hiệu quả trung bình 30% so với WOFF 1.0. Điều đó là tốt để sử dụng WOFF 2.0, WOFF 1.0 như một TTF dự phòng.
 
-    *How:*
-    > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
+    *Cách làm:*
+    > Kiểm tra trước khi mua bộ font mới xem nhà cung cấp có đưa bạn định dạng WOFF2 không. Nếu bạn đang sử dụng font miễn phí, bạn có thể luôn luôn sử dụng Font Squirrel để tạo ra tất cả các định dạng bạn cần.
 
     * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
     * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
@@ -317,19 +317,19 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
     * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **Sử dụng `preconnect` để load các font của bạn nhanh hơn:** ![medium]
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
-    *Why:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
+    *Tại sao:*
+    > Khi bạn đi đến một website, thiết bị của bạn cần tìm xem nơi mà site của bạn chạy và server cần để kết nối đến. Trình duyệt của bạn phải liên hệ đến DNS server và chờ cho đến khi việc lookup hoàn thành trước khi lấy tài nguyên (fonts, CSS files...). Fetch trước và kết nối trước cho phép trình duyệt lookup các thông tin và bắt đầu khởi tạo một kết nối TCP đến server file font. Điều đó cung cấp hiệu năng khởi động bời vì vào thời điểm trình duyệt phân tích cú pháp file css với thông tin font và phát hiện ra nó cần phải request một file font từ server, nó sẽ đã được giải quyết trước thông tin DNS và có một kết nối mở với server đã sẵn sàng trong kết nối của nó.
 
-    *How:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
+    *Cách làm:*
+    > ⁃ Trước khi prefetch các webfont, sử dụng webpagetest để đánh giá website của bạn <br>
+    ⁃ Tìm teal colored DNS lookups và lưu ý host đang được request <br>
+    ⁃ Prefetch các webfont của bạn trong `<head>` và thêm cuối cùng các tên host mà bạn cũng nên prefetch
 
     * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
@@ -337,33 +337,33 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
     * 🛠 [typekit/webfontloader: Web Font Loader gives you added control when using linked fonts via @font-face.](https://github.com/typekit/webfontloader)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **Webfont size:** ![medium] Kích thước Webfont không vượt quá 300kb (bao gồm tất cả các biến thể)
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
-- [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+- [ ] **Prevent Flash hoặc Invisible Text:** ![medium] Tránh text trong suốt cho đến khi  Webfont được load
 
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
 **[⬆ back to top](#table-of-contents)**
 
-## Images
+## Các ảnh
 
 ![images]
 
  * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **Tối ưu ảnh:** ![high] Các ảnh của bạn được tối ưu, được nén mà không ảnh hưởng trực tiếp đến người dùng cuối.
 
-    *Why:*
-    > Optimized images load faster in your browser and consume less data.
+    *Tại sao:*
+    > Các ảnh được tối ưu load nhanh hơn trên trình duyệt của bạn và sử dụng ít dữ liệu hơn.
 
-    *How:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image) <br>
-    ⁃ When it's possible, use fonts instead of text encoded in your images <br>
-    ⁃ Use SVG <br>
-    ⁃ Use a tool and specify a level compression under 85.
+    *Cách làm:*
+    > ⁃ Thử sử dụng các CSS3 effect khi nó khả thị (thay vì một ảnh nhỏ) <br>
+    ⁃ Khi nó khả thi, sử dụng các font để thay thế các text encode trong ảnh của bạn<br>
+    ⁃ Sử dụng SVG <br>
+    ⁃ Sử dụng một công cụ và chỉ định một mức độ nén dưới 85.
 
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
     * 📖 [Essential Image Optimization - An eBook by Addy Osmani](https://images.guide/)
@@ -374,60 +374,60 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
 
 
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+* [ ] **Định dạng ảnh:** ![high] Chọn Choose định dạng ảnh thích hợp.
 
-    *Why:*
-    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
+    *Tại sao:*
+    > Để đảm bảo ảnh của bạn không làm chậm website của bạn, chọn định dạng sẽ được trao đổi đến ảnh của bạn.Nếu nó là một ảnh, JPEG thì hầu hết phù hợp thời gian hơn PNG hoặc GIF. Nhưng đừng quên tìm kiếm định dạng nex-gen mà có thể giảm kích thước các file của bạn. Mỗi định dạng ảnh có ưu và nhược điểm, việc biết điều này là quan trọng để đưa ra sự lựa chọn phù hợp.
 
-    *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
-    ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
+    *Cách làm:*
+    > ⁃ Sử dụng [Lighthouse](https://developers.google.com/web/tools/lighthouse/) để xác định ảnh nào cuối cùng được sử dụng **định dạng next-gen** (giống như JPEG 2000m JPEG XR hoặc WebP) <br>
+    ⁃ So sánh các định dạng khác nhau, đôi khi sử dụng PNG8 tốt hơn PNG16, đôi khi lại không.
 
     * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
     * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
     * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
     * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
+- [ ] **Sử dụng ảnh vector với raster/bitmap:** ![medium] Thích sử dụng ảnh vector hơn ảnh bitmap (khi khả thi).
 
-    *Why:*
-    > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
+    *Tại sao:*
+    > Các ảnh vector (SVG) có xu hướng bé hơn các ảnh khác và SVG thì responsive và hoàn toàn mở rộng. Những ảnh này có thể là ảnh hoạt hình và được chỉnh sửa bởi CSS.
 
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
+* [ ] **Kích thước ảnh:** ![medium] Thiết lập các thuộc tính `width` và  `height` trên thẻ `<img>` nếu kích thước ảnh được render ra là biết.
 
-    *Why:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+    *Tại sao:*
+    > Nếu chiều cao và chiều rộng được thiết lập, không gian cần thiết cho  hình ảnh được khoảng trắng được yêu cầu được dành riêng khi page được load. Tuy nhiên, không có các thuộc tính này, trình duyệt không biết kích thước của ảnh và có thể không để dành khoảng không gian cho nó.Hiệu ứng về layout trang sẽ thay đổi trong khi load (trong khi ảnh load).
 
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
+* [ ] **Tránh sử dụng ảnh Base64:** ![medium] Bạn có thể convert các ảnh nhỏ sang dạng base4 nhưng đó không phải là cách làm tốt nhất.
 
     * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
     * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
     * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
    * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![medium] Hình ảnh trên màn hình được load theo kiểu lazily (Một noscript fallback luôn luôn được cung cấp).
 
-    *Why:*
-    > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
+    *Tại sao:*
+    > Nó sẽ cải thiện thời gian phản hồi của trang hiện tại và sau đó tránh việc load các hình ảnh không cần thiết mà người dùng có thể không cần.
 
-    *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
-    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
+    *Cách làm:*
+    > ⁃ Sử dụng [Lighthouse](https://developers.google.com/web/tools/lighthouse/) để xác định có bao nhiêu **ảnh là dạng offscreen**. <br>
+    ⁃ Sử dụng một JavaScript plugin để lazyload các ảnh của bạn. Đảm bảo mục tiêu chỉ có các ảnh offscreen. <br>
+    ⁃ Cũng đảm bảm rằng để  lazyload các ảnh thay thế hiển thị  khi di chuyển chuột qua hoặc người dùng khác thực hiện hành động.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
     * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
     * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **Responsive các ảnh:** ![medium] Đảm bảo để đưa ra các ảnh gần với kích thước hiển thị của bạn.
 
-    *Why:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
+    *Tại sao:*
+    > Các thiết bị nhỏ không cần các ảnh lớn hơn khung hình của chúng. Bạn nên có nhiều phiên bản của một ảnh trên các kích thước khác nhau.
 
-    *How:*
-    > ⁃ Create different image sizes for the devices you want to target. <br>
-    ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
+    *Cách làm:*
+    > ⁃ Tạo các kích thước ảnh khác nhau cho thiết bị bạn muốn nhắm tới.<br>
+    ⁃ Sử dụng `srcset` và `picture` để phân phối nhiều biến thể của hình ảnh.
 
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
@@ -437,29 +437,29 @@ List of the tools you can use to test or monitor your website or application:
 
 ![javascript]
 
-- [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
+- [ ] **JS Minification:** ![high] Tất cả các file JavaScript được minify, các comment, khoảng trắng và các dòng mứoi được xoá khỏi các file production *(Vẫn hợp lệ nếu sử dụng HTTP/2)*.
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
+    *Tại sao:*
+    > Loại bỏ tất cả các khoảng trắng, comment và xuống dòng không cần thiết sẽ giảm kích thước các file JavaScript và tăng tốc độ load trang của site và rõ ràng làm nhẹ quá trình tải xuống của người dùng.
 
-    *How:*
-    > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
+    *Cách làm:*
+    > ⁃ Sử dụng các công cụ được gợi ý dưới đây để minify các file tự động trước hoặc trong khi build hoặc deployment của bạn.
 
     * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
     * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
     * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **Không để JavaScript bên trong:** ![medium] *(chỉ đúng cho website)* Tránh có nhiều code JavaScript được nhúng vào giữa body của bạn. Tập hợp lại các code Javascript vào trong các file ngoài hoặc cuối thẻ  `<head>` hoặc cuối trang (trước `</body>`).
 
-    *Why:*
-    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
+    *Tại sao:*
+    > Đặt các code nhúng JavaScript trực tiếp trong `<body>` có thể làm chậm việc tải xuống trang của bạn bởi vì nó load trong khi DOM đang được build. Tuỳ chọn tốt nhất là sử dụng các file ngoài với `async` hoặc `defer` để tránh blocking DOM. Tuỳ chọn khác là đặt các script vào trong  `<head>`. Hầu hết thời gian phân tích code hoặc các script nhỏ là cần thiết trước khi DOM lấy để thực thi chính.
 
-    *How:*
-    > Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
+    *Cách làm:*
+    > Đảm bảo tất cả các file được load sử dụng `async` hoặc `defer` và quyết định một các hợp lý các code cần được thêm vào `<head>`.
 
      * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
-* [ ] **Non-blocking JavaScript:** ![high] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **Non-blocking JavaScript:** ![high] Các file JavaScript được load asynchronously sử dụng `async` or deferred sử dụng `defer`.
 
     ```html
     <!-- Defer Attribute -->
@@ -469,34 +469,34 @@ List of the tools you can use to test or monitor your website or application:
     <script async src="foo.js"></script>
     ```
 
-    *Why:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
+    *Tại sao:*
+    > Các khối JavaScript bình thường parse của HTML document, vì vậy khi parser tới một thẻ `<script>` (đặc biệt bên trong `<head>`), nó dừng fetch và chạy nó. Thêm `async` hoặc `defer` được đánh giá cao nếu script của bạn được đặt ở đầu trang nhưng ít giá trị hơn nếu trước thẻ `</body>`. Nhưng thực tết tốt là luôn sử dụng các thuộc tính này để tránh bất kỳ vấn đề hiệu suất nào
 
-    *How:*
-    > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag. <br>
-    ⁃ If you have small scripts, maybe use inline script place above async scripts.
+    *Cách làm:*
+    > ⁃ Thêm `async` (nếu dựa trên các script khác) hoặc `defer` (nếu script dựa vào một script async) giống như một thuộc tính đến thẻ script của bạn. <br>
+    ⁃ Nếu bạn có các script nhỏ, có thể sử dụng trên 1 dòng script thay vì ở trên async script.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
     * 📖 [Defer loading JavaScript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **Tối ưu và cập nhật các thư viện JS:** ![medium] Tất cả các thư viện JavaScript đã sử dụng trong dự án của bạn là cần thiết (prefer Vanilla JavaScript cho các tính năng đơn giản), được cập nhật phiên bản mới nhất của chúng và không đặt Javascript với nhiều hàm không cần thiết.
 
-    *Why:*
+    *Tại sao:*
     > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
 
-    *How:*
+    *Cách làm:*
     > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
     > [Greenkeeper](https://greenkeeper.io/) can automatically look for your dependencies and suggest an update evey time a new version is out.
 
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
+- [ ] **Kiểm tra kích thước giới hạn của các phụ thuộc:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
 
-    *Why:*
+    *Tại sao:*
     > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
 
-    *How:*
+    *Cách làm:*
     > Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
 
     * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
@@ -505,10 +505,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
 
-    *Why:*
+    *Tại sao:*
     > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
 
-    *How:*
+    *Cách làm:*
     > Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
 
      * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
@@ -517,7 +517,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
     * 📖 [30 Tips To Improve Javascript Performance](http://www.monitis.com/blog/30-tips-to-improve-javascript-performance/)
 
-- [ ] **Use of Service Workers:** ![medium] You are using Service Workers in your PWA to cache data or execute possible heavy tasks without impacting the user experience of your application.
+- [ ] **Sử dụng các Service Worker:** ![medium] You are using Service Workers in your PWA to cache data or execute possible heavy tasks without impacting the user experience of your application.
    
     * 📖 [Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/)
     * 📖 [Measuring the Real-world Performance Impact of Service Workers  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2016/service-worker-perf)
@@ -530,9 +530,9 @@ List of the tools you can use to test or monitor your website or application:
 
 ![server-side]
 
-- [ ] **Your website is using HTTPS:** ![high] 
+- [ ] ** Website của bạn đang sử dụng HTTPS:** ![high] 
 
-    *Why:*
+    *Tại sao:*
     > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
 
  * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
@@ -541,43 +541,43 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [HTTP versus HTTPS versus HTTP2 - The real story | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
  * 📖 [HTTP vs HTTPS — Test them both yourself](https://www.httpvshttps.com/)
 
-- [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
+- [ ] ** Kích thước trang < 1500 KB (lý tưởng < 500 KB):** ![high] Giảm kích thước trang của bạn + tài nguyên nhiều nhất có thể.
 
-    *Why:*
+    *Tại sao:*
     > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
 
-    *How:*
+    *Cách làm:*
     > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
 
     * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
     * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
     * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
+- [ ] **Thời gian tải trang < 3 giấy:** ![high] Giảm thời gian tải trang càng nhiều càng tốt để phân phối nội dung của bạn nhanh chóng tới người dùng của bạn.
 
-    *Why:*
+    *Tại sao:*
     > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
 
-    *How:*
+    *Cách làm:*
     > Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
 
     * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
     * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
     * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
-- [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
+- [ ] **Thời gian byte đầu tiên < 1.3 giây:** ![high] Giảm thiểu thời gian mà trình duyệt của bạn đợi trước khi nhận dữ liệu.
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
     * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
     * 🛠 [Global latency testing tool](https://latency.apex.sh)
 
-* [ ] **Cookie size:** ![medium] If you are using cookies, be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Kích thước Cookie:** ![medium] Nếu bạn đang sử dụng cookies, hãy chắc chắn rằng mỗi cookie không vượt quá 4096 byte và tên miền của bạn không có nhiều hơn 20 cookie.
 
-    *Why:*
+    *Tại sao:*
     > Cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
 
-    *How:*
+    *Cách làm:*
     > Eliminate unnecessary cookies.
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
@@ -586,24 +586,24 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
     * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
+- [ ] **Giảm thiểu các request HTTP:** ![high] Luôn đảm bảo rằng mọi file được yêu cầu đều cần thiết cho trang web hoặc ứng dụng của bạn
  * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
  * 📖 [Combine external JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **Sử dụng một CDN để chuyển các asset của bạn** ![medium] Sử dụng một CDN để chuyển nhanh hơn nội dung trên toàn thế giới.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.
+- [ ] **Đưa ra các file từ cùng một giao thức:** ![high] Tránh để trang web của bạn đưa ra file từ nguồn bằng cách sử dụng HTTP trên trang web của bạn đang sử dụng HTTPS chẳng hạn. Nếu trang web của bạn đang sử dụng HTTPS, các tệp bên ngoài phải đến từ cùng một giao thức.
 
 - [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
  * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+- [ ] **Thiết lập  HTTP cache headers properly:** ![high] Đặt header HTTP để tránh số lượng vòng lặp cao giữa trình duyệt và máy chủ của bạn.
  * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
+- [ ] **Bật các nén GZIP /:** ![high] Sử dụng phương pháp nén như Gzip hoặc Brotli để giảm kích thước tệp JavaScript của bạn. Với tệp kích thước nhỏ hơn, người dùng sẽ có thể tải xuống nội dung nhanh hơn, dẫn đến hiệu suất được cải thiện.
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
@@ -612,7 +612,7 @@ List of the tools you can use to test or monitor your website or application:
 **[⬆ back to top](#table-of-contents)**
 
 ---
-## Performances and JS Frameworks
+## Performances và các JS Framework
 
 ### Angular
  * 📖 [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
