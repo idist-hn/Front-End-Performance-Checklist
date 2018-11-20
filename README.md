@@ -482,34 +482,33 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 * [ ] **Tối ưu và cập nhật các thư viện JS:** ![medium] Tất cả các thư viện JavaScript đã sử dụng trong dự án của bạn là cần thiết (prefer Vanilla JavaScript cho các tính năng đơn giản), được cập nhật phiên bản mới nhất của chúng và không đặt Javascript với nhiều hàm không cần thiết.
 
     *Tại sao:*
-    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
-
+    > Hầu hết thời gian, các phiên bản mới đi kèm với tối ưu hóa và sửa chữa bảo mật. Bạn nên sử dụng code được tối ưu hóa nhất để tăng tốc dự án của mình và đảm bảo rằng bạn sẽ không làm chậm trang web hoặc ứng dụng của mình mà không có plugin lỗi thời. 
+    
     *Cách làm:*
-    > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
-    > [Greenkeeper](https://greenkeeper.io/) can automatically look for your dependencies and suggest an update evey time a new version is out.
-
+    > Nếu dự ánh sử dụng các package NPM, [npm-check](https://www.npmjs.com/package/npm-check) là một thư viện khá thú vị để nâng cấp / cập nhật thư viện của bạn.
+    > [Greenkeeper](https://greenkeeper.io/) có thể tự động tìm kiếm các phụ thuộc của bạn và đề xuất thời gian cập nhật mỗi phiên bản mới.
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Kiểm tra kích thước giới hạn của các phụ thuộc:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
+- [ ] **Kiểm tra kích thước giới hạn của các phụ thuộc:** ![low] Đảm bảo sử dụng các thư viện bên ngoài, hầu hết thời gian, bạn có thể sử dụng thư viện nhẹ hơn cho cùng một chức năng.
 
     *Tại sao:*
-    > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
+    > Bạn có thể bị cám dỗ sử dụng một trong 745 000 các package bạn  có thể tìm trên [npm](https://www.npmjs.com/), nhưng bạn cần phải chọn package tốt nhất cho nhu cầu của bạn. Ví dụ, MomentJS là một thư viện tuyệt vời nhưng với rất nhiều phương thức bạn không bao giờ có thể sử dụng. Với 2kB và 16.4kB gz cho Moment.
 
     *Cách làm:*
-    > Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
+    > Luôn so sánh và chọn thư viện tốt nhất và nhẹ hơn cho nhu cầu của bạn. Bạn cũng có thể sử dụng các công cụ như [npm trends](http://www.npmtrends.com/) để so sánh số lượng NPM package tải xuống hoặc   [Bundlephobia](https://bundlephobia.com/) để biết kích thước của các phụ thuộc của bạn.
 
     * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
     * 🛠 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
     * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
+- [ ] **JavaScript Profiling:** ![medium] Kiểm tra các vấn đề hiệu năng trong các tệp JavaScript của bạn (và CSS cũng vậy).
 
     *Tại sao:*
-    > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
+    > JavaScript phức tạp có thể làm chậm hiệu năng thời gian chạy. Việc xác định các vấn đề có thể có này là điều cần thiết để cung cấp trải nghiệm người dùng mượt mà nhất.
 
     *Cách làm:*
-    > Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
+    > Sử dụng công cụ Timeline trong Chrome Developer Tool để đánh giá các sự kiện script và tìm thấy sự kiện có thể mất quá nhiều thời gian.
 
      * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
@@ -517,7 +516,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
     * 📖 [30 Tips To Improve Javascript Performance](http://www.monitis.com/blog/30-tips-to-improve-javascript-performance/)
 
-- [ ] **Sử dụng các Service Worker:** ![medium] You are using Service Workers in your PWA to cache data or execute possible heavy tasks without impacting the user experience of your application.
+- [ ] **Sử dụng các Service Worker:** ![medium] Bạn đang sử dụng Service Worker trong PWA của bạn để lưu trữ dữ liệu hoặc thực hiện các tác vụ nặng có thể mà không ảnh hưởng đến trải nghiệm người dùng của ứng dụng của bạn.
    
     * 📖 [Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/)
     * 📖 [Measuring the Real-world Performance Impact of Service Workers  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2016/service-worker-perf)
@@ -533,7 +532,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 - [ ] ** Website của bạn đang sử dụng HTTPS:** ![high] 
 
     *Tại sao:*
-    > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
+    > HTTPS không chỉ dành cho các trang web thương mại điện tử mà còn cho tất cả các trang web đang trao đổi dữ liệu. Dữ liệu được chia sẻ bởi người dùng hoặc dữ liệu được chia sẻ với một thực thể bên ngoài. Các trình duyệt hiện đại giới hạn chức năng cho các trang web không an toàn. Ví dụ: định vị địa lý, thông báo đẩy và nhân viên dịch vụ không hoạt động nếu cá thể của bạn không sử dụng HTTPS. Và ngày nay, việc thiết lập dự án với chứng chỉ SSL dễ dàng hơn nhiều so với trước đây (và cho miễn phí, cảm ơn đến [Let's Encrypt](https://letsencrypt.org/)).
 
  * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
  * 📖 [Enabling HTTPS Without Sacrificing Your Web Performance - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
@@ -544,22 +543,22 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 - [ ] ** Kích thước trang < 1500 KB (lý tưởng < 500 KB):** ![high] Giảm kích thước trang của bạn + tài nguyên nhiều nhất có thể.
 
     *Tại sao:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+    > Lý tưởng nhất là bạn nên cố gắng đạt mục tiêu <500 KB nhưng trạng thái web cho thấy trung bình của Kilobyte là khoảng 1500 KB (ngay cả trên thiết bị di động). Tùy thuộc vào người dùng mục tiêu của bạn, kết nối mạng, thiết bị, điều quan trọng là phải giảm càng nhiều càng tốt Kilobyte của bạn để có trải nghiệm người dùng tốt nhất có thể.
 
     *Cách làm:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
+    > ⁃ Tất cả các quy tắc bên trong Front-End Performance Checklist sẽ giúp bạn giảm càng nhiều càng tốt tài nguyên và code của bạn.
 
     * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
     * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
     * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Thời gian tải trang < 3 giấy:** ![high] Giảm thời gian tải trang càng nhiều càng tốt để phân phối nội dung của bạn nhanh chóng tới người dùng của bạn.
+- [ ] **Thời gian tải trang < 3 giây:** ![high] Giảm thời gian tải trang càng nhiều càng tốt để phân phối nội dung của bạn nhanh chóng tới người dùng của bạn.
 
     *Tại sao:*
-    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
-
+    > Nhanh hơn trang web hoặc ứng dụng của bạn, bạn càng ít có khả năng tăng việc bị quay trở lại, nói cách khác, bạn có ít cơ hội làm mất người dùng hoặc khách hàng trong tương lai. Đủ nghiên cứu về chủ đề này chứng minh quan điểm đó.
+    
     *Cách làm:*
-    > Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
+    > Sử dụng các công cụ online như [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) hoặc [WebPageTest](https://www.webpagetest.org/) để phân tích những gì có thể làm chậm bạn và Front-End Performance Checklist để cải thiện thời gian tải của bạn.
 
     * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
     * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
@@ -575,10 +574,10 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 * [ ] **Kích thước Cookie:** ![medium] Nếu bạn đang sử dụng cookies, hãy chắc chắn rằng mỗi cookie không vượt quá 4096 byte và tên miền của bạn không có nhiều hơn 20 cookie.
 
     *Tại sao:*
-    > Cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+    > Cookie được trao đổi trong header HTTP giữa các máy chủ web và trình duyệt. Điều quan trọng là phải giữ kích thước cookie càng thấp càng tốt để giảm thiểu tác động đến thời gian phản hồi của người dùng.
 
     *Cách làm:*
-    > Eliminate unnecessary cookies.
+    > Loại bỏ các cookie không cần thiết
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
@@ -597,7 +596,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 
 - [ ] **Đưa ra các file từ cùng một giao thức:** ![high] Tránh để trang web của bạn đưa ra file từ nguồn bằng cách sử dụng HTTP trên trang web của bạn đang sử dụng HTTPS chẳng hạn. Nếu trang web của bạn đang sử dụng HTTPS, các tệp bên ngoài phải đến từ cùng một giao thức.
 
-- [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
+- [ ] **Đưa ra các file có thể tiếp cận được:** ![high] Tránh request các file không thể truy cập (404).
  * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
 - [ ] **Thiết lập  HTTP cache headers properly:** ![high] Đặt header HTTP để tránh số lượng vòng lặp cao giữa trình duyệt và máy chủ của bạn.
