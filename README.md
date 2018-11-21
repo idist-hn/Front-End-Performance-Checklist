@@ -52,7 +52,7 @@
 
 ## Giới thiệu
 
-Performance là một chủ để lớn, nhưng nó không phải là một chủ đề về "back-end" hoặc "admin": nó cũng là một Front-End responsibility. Danh sách Front-End Performance là một danh sách đầy đủ các thành phần bạn nên kiểm tra hoặc ít nhất biết được giống như một Front-End developer và áp dụng vào dự án của bạn (cá nhân và chuyên nghiệp).
+Performance là một chủ để lớn, nhưng nó không phải luôn là một chủ đề về "back-end" hoặc "admin": nó cũng là một Front-End responsibility. Front-End Performance Checklist là một danh sách đầy đủ các thành phần bạn nên kiểm tra hoặc ít nhất biết được giống như một Front-End developer và áp dụng vào dự án của bạn (cá nhân và chuyên nghiệp).
 
 ### Làm thế nào để sử dụng?
 
