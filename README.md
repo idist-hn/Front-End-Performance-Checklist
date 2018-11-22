@@ -56,7 +56,7 @@ Front-End Performance Checklist này chỉ chạy nhanh hơn những bên khác.
 
 ## Giới thiệu
 
-Hiệu suất là một chủ đề rất lớn, nhưng nó không chỉ là chủ đề của "back-end" hay "admin": nó cũng là trách nhiệm của Front-End. Front-End Performance Checklist là một danh sách đầy đủ về các yếu tối mà bạn cần kiểm tra hoặc ít nhất là phải biết đến nó, với tư cách là một lập trình viên Front-Edn và áp dụng vào dự án của bạn (cá nhân hay chuyên nghiệp).
+Hiệu suất là một chủ đề rất lớn, nhưng nó không chỉ là chủ đề của "back-end" hay "admin": nó cũng phụ thuộc vào cả Front-End. Front-End Performance Checklist là một danh sách đầy đủ về các yếu tố mà bạn cần kiểm tra hoặc ít nhất là phải biết đến nó, với tư cách là một lập trình viên Front-Edn và áp dụng vào dự án của bạn (cá nhân hay chuyên nghiệp).
 
 
 ### Sử dụng nó như nào?
