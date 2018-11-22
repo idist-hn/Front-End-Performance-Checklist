@@ -52,13 +52,13 @@
 
 ## Giới thiệu
 
-Performance là một chủ để lớn, nhưng nó không phải luôn là một chủ đề về "back-end" hoặc "admin": nó cũng là một Front-End responsibility. Front-End Performance Checklist là một danh sách đầy đủ các thành phần bạn nên kiểm tra hoặc ít nhất biết được giống như một Front-End developer và áp dụng vào dự án của bạn (cá nhân và chuyên nghiệp).
+Performance là một chủ để lớn, nhưng nó không phải luôn là một chủ đề của "back-end" hoặc "admin": nó cũng là một trách nhiệm của Front-End. Front-End Performance Checklist là một danh sách đầy đủ các thành phần bạn nên kiểm tra hoặc ít nhất biết được giống như một Front-End developer và áp dụng vào dự án của bạn (cá nhân và chuyên nghiệp).
 
 ### Làm thế nào để sử dụng?
 
-Đối với mỗi quy tắc, bạn sẽ có một đoạn giải thích *tại sao* về quy tắc đó là quan trọng và *làm thế nào* bạn có thể sửa nó. Để biết thêm thông tin chi tiết, bạn nên tìm đênns link mà sẽ được chỉ bởi các công cụ 🛠, 📖 các bài viết or 📹 các media để có thể hoàn thành checklist.
+Đối với mỗi quy tắc, bạn sẽ có một đoạn giải thích *tại sao* về quy tắc đó là quan trọng và *làm thế nào* bạn có thể sửa nó. Để biết thêm thông tin chi tiết, bạn nên tìm đến các link mà sẽ được chỉ bởi các công cụ 🛠, 📖 các bài viết hoặc 📹 các media để có thể hoàn thành checklist.
 
-Tất cả các mục trong **Front-End Performance Checklist** là những yếu tố cần thiết để are essentials để đạt được điểm số về performance cao nhất nhưng bạn sẽ tìm thấy một chỉ số để giúp bạn ưu tiên một số quy tắc khác. Có 3 mức độ ưu tiên: 
+Tất cả các mục trong **Front-End Performance Checklist** là những yếu tố cần thiết để để đạt được điểm số về performance cao nhất nhưng bạn sẽ tìm thấy một chỉ số để giúp bạn ưu tiên một số quy tắc khác. Có 3 mức độ ưu tiên: 
 
 * ![Low][low] nghĩa là mục có ưu tiên **thấp**.
 * ![Medium][medium] nghĩa là mục có ưu tiên **trung bình**. Bạn không nên tránh giải quyết mục này.
@@ -107,13 +107,13 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 
 ![html]
 
-- [ ] **Minified HTML:** ![medium] HTML code được minify, các comment, các khoảng trắng và các dòng mới được loại bỏ khỏi các file production  and new lines are removed from production files.
+- [ ] **Minified HTML:** ![medium] HTML code được minify, các comment, các khoảng trắng và các dòng mới được loại bỏ khỏi các file production.
 
     *Tại sao:*
     > Loại bỏ tất cả các khoảng trắng, các comment và xuống dòng không cần thiết sẽ giảm kích thước HTML của bạn và tăng tốc độ thời gian load trang của bạn và chắc chắn làm giảm bớt việc tải xuống cho người dùng của bạn.
 
     *Cách làm:*
-    > Hầu hết các framework đều có các plugin để tối giản hoá các trang web. Bạn có thể sử dụng một bunch của NPM module mà có thể thực hiện job đó một các tự động.
+    > Hầu hết các framework đều có các plugin để tối giản hoá các trang web. Bạn có thể sử dụng một loạt các module của NPM để có thể thực hiện job đó một các tự động.
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 🛠 [Online HTML Compressor](http://refresh-sf.com)
@@ -129,7 +129,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Loại bỏ các thuộc tính không cần thiết:** ![low] Các thuộc tính type giống như là `type="text/javascript"` hoặc `type="text/css"` không được yêu cầu bắt buộc nữa và nên được bỏ đi.
+- [ ] **Loại bỏ các thuộc tính không cần thiết:** ![low] Các thuộc tính type giống như là `type="text/javascript"` hoặc `type="text/css"` không còn yêu cầu bắt buộc nữa và nên được bỏ đi.
 
     ```html
     <!-- Before HTML5 -->
@@ -144,7 +144,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
     ```
 
     *Tại sao:*
-    > Thuộc tính type là không cần thiết trong HTML 5 ngụ ý text/css và text/javascript là mặc định. Code không sử dụng nên được loại bỏ khi không được sử dụng bởi website hoặc ứng dụng của bạn, chúng thêm vào làm nặng các trang của bạn.
+    > Thuộc tính type là không cần thiết trong HTML 5 ngầm hiểu text/css và text/javascript là mặc định. Code không sử dụng nên được loại bỏ khi không được sử dụng bởi website hoặc ứng dụng của bạn, chúng thêm vào làm nặng các trang của bạn.
 
     *Cách làm:*
     > ⁃ Đảm bảo rằng tất cả các thẻ `<link>` and `<script>` của bạn không chứa bất kỳ thuộc tính type nào.
@@ -166,7 +166,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
     ```
 
     *Tại sao:*
-    > Có các thẻ CSS trước bất kỳ thẻ Javascript nào sẽ tốt hơn Having your CSS tags before any JavaScript enables better, tải xuống song song giúp tăng tốc độ về thời gian hiển thị của trình duyệt.
+    > Có các thẻ CSS trước bất kỳ thẻ Javascript nào sẽ tốt hơn, tải xuống song song giúp tăng tốc độ về thời gian hiển thị của trình duyệt.
 
     *Cách làm:*
     > ⁃ Đảm bảo rằng `<link>`  và `<style>` trong `<head>` là luôn luôn ở trước `<script>`.
@@ -216,7 +216,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
     * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
-- [ ] **Non-blocking:** ![high] Các file CSS cần ở trạng thái non-blocking để ngăng DOM mất thời gian load.
+- [ ] **Non-blocking:** ![high] Các file CSS cần ở trạng thái non-blocking để ngăn DOM mất thời gian load.
 
     ```html
     <link rel="preload" href="global.min.css" as="style" onload="this.rel='stylesheet'">
@@ -237,7 +237,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 - [ ] **Độ dài của các class CSS:** ![low] Độ dài của các class của bạn có thể có một ảnh hưởng (nhẹ) lên các file HTML và CSS của bạn.
 
     *Tại sao:*
-    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. Nếu bạn đang sử dụng BEM, trong một vài class bạn có thể kết thúc với các class có nhiều ký tự hơn cần thiết. Việc chọn tên và namespace không ngoan luôn là điều quan trọng.
+    > Ngay cả việc tác động lên hiệu suất cũng có thể bị tranh chấp, việc đưa ra quyết định đối với chiến lược đặt tên liên quan tới project của bạn có thể tác động đáng kể tới khả năng bảo trì của bảng các style.  Nếu bạn đang sử dụng BEM, trong một vài class bạn có thể kết thúc với các class có nhiều ký tự hơn cần thiết. Việc chọn tên và namespace không ngoan luôn là điều quan trọng.
 
     *Cách làm:*
     > Đặt một giới hạn về số lượng ký tự có thể hấp dẫn cho một số người, nhưng đảm bảo rằng bạn không làm vỡ website của bạn trong các thành phần có thể giúp làm giảm số lượng các class (và các khai báo) và kích thước của các class.
@@ -257,7 +257,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Critical:** ![high] The CSS critical (hoặc "trong màn hình đầu tiên") tập hợp tất cả CSS được sử dụng để render phần hiển thị của trang. Nó được nhúng trước lời gọi principal CSS và giữa `<style></style>` trong một dòng riêng(được minify nếu khả thi).
+* [ ] **CSS Critical:** ![high] CSS critical (hoặc "trong màn hình đầu tiên") tập hợp tất cả CSS được sử dụng để render phần hiển thị của trang. Nó được nhúng trước lời gọi principal CSS và giữa `<style></style>` trong một dòng riêng(được minify nếu khả thi).
 
     *Tại sao:*
     > Inlining critical CSS giúp tăng tốc độ render của các trang web giảm số lượng các request đến server.
@@ -293,7 +293,8 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 🛠 [CSS Stats](https://cssstats.com/)
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
-    * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
+    * 🛠 [Project Wallace](https://www.projectwallace.com/) giống như thống kê CSS nhưng lưu trữ dữ liệu thống kê theo thời gian vì vậy bạn có thể theo dõi được các thay đổi của mình
+
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -388,10 +389,10 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
     * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
     * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Sử dụng ảnh vector với raster/bitmap:** ![medium] Thích sử dụng ảnh vector hơn ảnh bitmap (khi khả thi).
+- [ ] **Sử dụng ảnh vector với raster/bitmap:** ![medium] Sử dụng ảnh vector hơn ảnh bitmap (khi khả thi).
 
     *Tại sao:*
-    > Các ảnh vector (SVG) có xu hướng bé hơn các ảnh khác và SVG thì responsive và hoàn toàn mở rộng. Những ảnh này có thể là ảnh hoạt hình và được chỉnh sửa bởi CSS.
+    > Các ảnh vector (SVG) có xu hướng bé hơn các ảnh khác và SVG thì có khả năng responsive và hoàn toàn mở rộng. Những ảnh này có thể là ảnh hoạt hình và được chỉnh sửa bởi CSS.
 
 * [ ] **Kích thước ảnh:** ![medium] Thiết lập các thuộc tính `width` và  `height` trên thẻ `<img>` nếu kích thước ảnh được render ra là biết.
 
@@ -493,7 +494,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 - [ ] **Kiểm tra kích thước giới hạn của các phụ thuộc:** ![low] Đảm bảo sử dụng các thư viện bên ngoài, hầu hết thời gian, bạn có thể sử dụng thư viện nhẹ hơn cho cùng một chức năng.
 
     *Tại sao:*
-    > Bạn có thể bị cám dỗ sử dụng một trong 745 000 các package bạn  có thể tìm trên [npm](https://www.npmjs.com/), nhưng bạn cần phải chọn package tốt nhất cho nhu cầu của bạn. Ví dụ, MomentJS là một thư viện tuyệt vời nhưng với rất nhiều phương thức bạn không bao giờ có thể sử dụng. Với 2kB và 16.4kB gz cho Moment.
+    > Bạn có thể bị cám dỗ sử dụng một trong 745 000 các package bạn  có thể tìm trên [npm](https://www.npmjs.com/), nhưng bạn cần phải chọn package tốt nhất cho nhu cầu của bạn. Ví dụ, MomentJS là một thư viện tuyệt vời nhưng với rất nhiều phương thức bạn không bao giờ có thể sử dụng đó là ý do vì sao Day.js được tạo ra. Với 2kB và 16.4kB cho Moment.
 
     *Cách làm:*
     > Luôn so sánh và chọn thư viện tốt nhất và nhẹ hơn cho nhu cầu của bạn. Bạn cũng có thể sử dụng các công cụ như [npm trends](http://www.npmtrends.com/) để so sánh số lượng NPM package tải xuống hoặc   [Bundlephobia](https://bundlephobia.com/) để biết kích thước của các phụ thuộc của bạn.
@@ -555,7 +556,7 @@ Danh sách các công cụ bạn có thể sử dụng để test hoặc hiển 
 - [ ] **Thời gian tải trang < 3 giây:** ![high] Giảm thời gian tải trang càng nhiều càng tốt để phân phối nội dung của bạn nhanh chóng tới người dùng của bạn.
 
     *Tại sao:*
-    > Nhanh hơn trang web hoặc ứng dụng của bạn, bạn càng ít có khả năng tăng việc bị quay trở lại, nói cách khác, bạn có ít cơ hội làm mất người dùng hoặc khách hàng trong tương lai. Đủ nghiên cứu về chủ đề này chứng minh quan điểm đó.
+    > Nhanh hơn trang web hoặc ứng dụng của bạn, bạn càng ít có khả năng tăng việc bị quay trở lại, nói cách khác, bạn ít làm mất người dùng hoặc khách hàng trong tương lai. Đã có đủ các nghiên cứu về chủ đề này chứng minh quan điểm đó.
     
     *Cách làm:*
     > Sử dụng các công cụ online như [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) hoặc [WebPageTest](https://www.webpagetest.org/) để phân tích những gì có thể làm chậm bạn và Front-End Performance Checklist để cải thiện thời gian tải của bạn.
